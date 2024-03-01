@@ -17,9 +17,13 @@ namespace ChatGPTOne
                 switch (input)
                 {
                     case "Do you like pasta?":
-                        answer = "Who dosen't!";
+                        answer = "Who doesn't!";
                         break;
-                        
+                    
+                    case "Are you better than ChatGPTZero?":
+                        answer = "Absolutely! That guy was a dum dum!";
+                        break;
+
                     case "EXIT":
                         continue;
 
