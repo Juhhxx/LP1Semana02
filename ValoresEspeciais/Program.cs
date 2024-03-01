@@ -52,7 +52,12 @@ namespace ValoresEspeciais
 
             Console.WriteLine(3*f1);
             Console.WriteLine(f1 + 2);
-            
+
+            float f2 = 100_000.0f;
+            float f3 = f2 + 0.00002f;
+
+            Console.WriteLine(f2 == f3);
+
 
         }
     }
