@@ -15,6 +15,7 @@ namespace Cilindro
             int r = int.Parse(raio);
 
             float Vol = MathF.PI * MathF.Pow(r,2) * a;
+            float Spr = 2 * MathF.PI * r * (r + a);
         }
     }
 }
