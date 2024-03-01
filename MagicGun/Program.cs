@@ -10,6 +10,10 @@ namespace MagicGun
             string num = Console.ReadLine();
             int n = int.Parse(num);
 
+            for (int i = 1; i < n; i++)
+            {
+                Console.WriteLine('a');
+            }
         }
     }
 }
