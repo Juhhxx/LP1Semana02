@@ -28,7 +28,7 @@ namespace MagicGun
                     shot = " Normal Fire :/";
                 }
 
-                Console.WriteLine($"{i} : {shot}");
+                Console.WriteLine($"{i} :{shot}");
             }
         }
     }
