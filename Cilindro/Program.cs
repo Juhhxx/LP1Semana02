@@ -10,7 +10,7 @@ namespace Cilindro
             string alt = Console.ReadLine();
             int a = int.Parse(alt);
 
-            Console.Write("Insira o raio da abse do cilindro: ");
+            Console.Write("Insira o raio da base do cilindro: ");
             string raio = Console.ReadLine();
             int r = int.Parse(raio);
 
