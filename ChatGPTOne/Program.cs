@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 
 namespace ChatGPTOne
 {
@@ -15,9 +16,13 @@ namespace ChatGPTOne
 
                 switch (input)
                 {
+                    case "Do you like pasta?":
+                        answer = "Who dosen't!";
+                        break;
+                        
                     case "EXIT":
                         continue;
-                        
+
                     default:
                         answer = "Sorry, I could not interpret that question!";
                         break;
