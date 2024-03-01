@@ -13,6 +13,8 @@ namespace Cilindro
             Console.Write("Insira o raio da abse do cilindro: ");
             string raio = Console.ReadLine();
             int r = int.Parse(raio);
+
+            float Vol = MathF.PI * MathF.Pow(r,2) * a;
         }
     }
 }
