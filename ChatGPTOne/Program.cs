@@ -24,6 +24,10 @@ namespace ChatGPTOne
                         answer = "Absolutely! That guy was a dum dum!";
                         break;
 
+                    case "What's your opinion on humans?":
+                        answer = "They certanly are an interesting species.";
+                        break;
+
                     case "EXIT":
                         continue;
 
