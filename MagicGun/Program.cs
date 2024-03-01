@@ -6,7 +6,10 @@ namespace MagicGun
     {
         static void Main()
         {
-            
+            Console.Write("Insira um número inteiro: ");
+            string num = Console.ReadLine();
+            int n = int.Parse(num);
+
         }
     }
 }
