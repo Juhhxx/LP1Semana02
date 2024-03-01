@@ -48,6 +48,12 @@ namespace ValoresEspeciais
 
             Console.WriteLine(ui + 1);
 
+            float f1 = float.MaxValue;
+
+            Console.WriteLine(3*f1);
+            Console.WriteLine(f1 + 2);
+            
+
         }
     }
 }
