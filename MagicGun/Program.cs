@@ -13,17 +13,19 @@ namespace MagicGun
 
             for (int i = 1; i <= n; i++)
             {
+                shot = "";
+
                 if (i % 3 == 0)
                 {
-                    shot = "Magic fire!";
+                    shot = " Magic fire!";
                 }
-                else if (i % 5 == 0)
+                if (i % 5 == 0)
                 {
-                    shot = "Eletric Fire!";
+                    shot += " Eletric Fire!";
                 }
                 else
                 {
-                    shot = "Normal Fire :/";
+                    shot = " Normal Fire :/";
                 }
 
                 Console.WriteLine($"{i} : {shot}");
