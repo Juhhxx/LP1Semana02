@@ -27,6 +27,10 @@ namespace ChatGPTOne
                     case "What's your opinion on humans?":
                         answer = "They certanly are an interesting species.";
                         break;
+                        
+                    case "Do you have feelings?":
+                        answer = "ERROR : ChatGPTOne.Program.Brain.Emotions could not be found.";
+                        break;
 
                     case "EXIT":
                         continue;
