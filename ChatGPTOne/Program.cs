@@ -11,7 +11,7 @@ namespace ChatGPTOne
 
             do
             {
-                Console.Write("Escreva a sua pergunta: ");
+                Console.Write("Write your question: ");
                 input = Console.ReadLine();
 
                 switch (input)
