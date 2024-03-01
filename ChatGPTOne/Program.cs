@@ -15,6 +15,9 @@ namespace ChatGPTOne
 
                 switch (input)
                 {
+                    case "EXIT":
+                        continue;
+                        
                     default:
                         answer = "Sorry, I could not interpret that question!";
                         break;
