@@ -6,6 +6,8 @@ namespace ValoresEspeciais
     {
         static void Main()
         {
+            // Exercice Min and Max values
+
             Console.WriteLine(sbyte.MinValue);
             Console.WriteLine(sbyte.MaxValue);
             Console.WriteLine(short.MinValue);
@@ -31,12 +33,20 @@ namespace ValoresEspeciais
             Console.WriteLine(decimal.MinValue);
             Console.WriteLine(decimal.MaxValue);
 
+            // Exercice Infinity and NaN
+
             Console.WriteLine(float.PositiveInfinity);
             Console.WriteLine(float.NegativeInfinity);
             Console.WriteLine(float.NaN);
             Console.WriteLine(double.PositiveInfinity);
             Console.WriteLine(double.NegativeInfinity);
             Console.WriteLine(double.NaN);
+
+            // Exercice Overflow and Underflow
+
+            uint ui = uint.MaxValue;
+
+            Console.WriteLine(ui + 1);
 
         }
     }
